@@ -18,7 +18,7 @@ fn main() {
 
     let salario_liquido = calcula_salario_liquido(salario, irrf);
 
-    println!("O salário bruto é: R$ {}", salario);
+    println!("O salário bruto é: R$ {} muitoe né?", salario);
     println!("O IRRF é: R$ {}", irrf);
     println!("O salário líquido é: R$ {}", salario_liquido);
 
