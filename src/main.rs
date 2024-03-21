@@ -25,7 +25,7 @@ fn main() {
 }
 
 fn calcula_salario_liquido(salario: f64, irrf: f64) -> f64 {
-    let salario_liquido = salario - irrf;
+    let salario_liquido = salario + irrf;
     salario_liquido
 }
 
