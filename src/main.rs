@@ -6,6 +6,7 @@ fn main() {
     let mut horas = String::new();
     std::io::stdin().read_line(&mut horas).unwrap();
     let horas: f64 = horas.trim().parse().unwrap();
+
     println!("Digite o valor da hora: ");
     let mut valor = String::new();
     std::io::stdin().read_line(&mut valor).unwrap();
@@ -18,7 +19,7 @@ fn main() {
 
     let salario_liquido = calcula_salario_liquido(salario, irrf);
 
-    println!("O salário bruto é: R$ {} muitoe né?", salario);
+    println!("O salário bruto é: R$ {} muito né?", salario);
     println!("O IRRF é: R$ {}", irrf);
     println!("O salário líquido é: R$ {}", salario_liquido);
 
