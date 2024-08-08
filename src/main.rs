@@ -31,7 +31,7 @@ fn calcula_salario_liquido(salario: f64, irrf: f64) -> f64 {
 }
 
 fn calcula_irrf(salario: f64, aliquota: f64) -> f64 {
-    let irrf = salario * (aliquota - 10.0);
+    let irrf = salario * aliquota;
     irrf
 }
 
