@@ -20,7 +20,7 @@ fn main() {
     let salario_liquido = calcula_salario_liquido(salario, irrf);
 
     println!("O salário bruto é: R$ {} muito né?", salario);
-    println!("O IRRF é: R$ {} (é roub)", irrf);
+    println!("O IRRF é: R$ {}", irrf);
     println!("O salário líquido é: R$ {}", salario_liquido);
 
 }
@@ -31,7 +31,7 @@ fn calcula_salario_liquido(salario: f64, irrf: f64) -> f64 {
 }
 
 fn calcula_irrf(salario: f64, aliquota: f64) -> f64 {
-    let irrf = salario * 0.1;
+    let irrf = salario * aliquota;
     irrf
 }
 
