@@ -1,5 +1,5 @@
 fn main() {
-    println!("Sistema de Cálculo de Horas de PJ");
+    println!("Sistema de cálculo de Horas de PJ");
     println!("Bem-vindo ao sistema de cálculo de horas de PJ");
     println!("Digite o número de horas trabalhadas: ");
     
