@@ -1,6 +1,6 @@
 fn main() {
     println!("Sistema de cálculo de Horas de PJ");
-    println!("Bem-vindo ao sistema de cálculo de horas de PJ");
+    println!("Bem-vindo ao sistema de cálculo de horas de PJ, aqui");
     println!("Digite o número de horas trabalhadas: ");
     
     let mut horas = String::new();
